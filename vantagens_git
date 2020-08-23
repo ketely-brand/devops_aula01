@@ -1,1 +1,12 @@
 Vantagens de se utilizar o git.
+
+1 - Possível fazer o gerenciamento de versões de um programa;
+2 - Possível visualizar as diferentes versões;
+3 - Git faz merge automaticamente e corretamente, raramente há conclitos de merge em git.
+4 - Commit é o patch de modificações desde a versão anterior
+5 - Todo arquivo apagado poderá ser recuperado
+6 - O git ratreia primeiro o conteúdo depois os metadados, por isso renomear um arquivo não interfere na compração entre aruivos, pois a comparação inicial será pelo conteúdo
+7 - O git não prioriza a estrutura de diretórios mas um grafo, mas um DAC (Direct Acyclic Graph)
+8 - Cria um commit ligado ao anterior
+9 - Quando utilizado por duas pessoas simultâneamente e depois é necessário um merge, o git consegur identificar qual a vesão mais recente pois compara com a base original (3 way)
+
